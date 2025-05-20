@@ -6,6 +6,9 @@ export default {
   ],
   theme: {
     extend: {
+      colors: {
+        primary: '#f97316',
+      },
       fontFamily: {
         bona: ['Bona Nova SC', 'serif'],
       },
