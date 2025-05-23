@@ -9,14 +9,14 @@ const TopWorkers = () => {
       <div className="w-full grid grid-cols-auto gap-4 pt-5 gap-y-6 px-3 sm:px-0">
         {workers.slice(0, 10).map((item, index) => (
           <div className="border border-orange-200 rounded-xl overflow-hidden cursor-pointer hover:translate-y-[-10px] transition-all duration-500" key={index}>
-            <img className="bg-orange-50" src={item.image} alt="" />
+            <img className="bg-orange-50 " src={item.image} alt="" />
             <div className="p-4">
               <div className="flex items-center gap-2 text-sm text-center text-green-500">
                 <p className="w-2 h-2 bg-green-500 rounded-full"></p> <p>Available</p>
               </div>
             </div>
             <p className="text-gray-900 text-lg font-medium">{item.name}</p>
-            <p className="text-gray-600 text-sm">{item.speciality}</p>
+            <p className="text-gray-600 text-sm ">{item.speciality}</p>
           </div>
         ))}
       </div>
