@@ -12,6 +12,9 @@ export default {
       fontFamily: {
         bona: ['Bona Nova SC', 'serif'],
       },
+      gridTemplateColumns:{
+        'auto':'repeat(auto-fill, minmax(200px, 1fr))'
+      }
     },
   },
   plugins: [],
