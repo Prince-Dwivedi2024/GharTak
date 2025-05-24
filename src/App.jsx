@@ -9,6 +9,7 @@ import Login from './pages/Login'
 import Appointment from './pages/Appointment'
 import About from './pages/About'
 import Nav from './components/Nav'
+import Footer from './components/Footer'
 
 const router = createBrowserRouter(
   [
@@ -18,6 +19,7 @@ const router = createBrowserRouter(
       <div>
         <Nav/>
         <Home/>
+        <Footer/>
         </div>
     },
 
@@ -27,6 +29,7 @@ const router = createBrowserRouter(
       <div>
         <Nav/>
         <Workers/>
+        <Footer/>
         </div>
     },
 
@@ -36,6 +39,7 @@ const router = createBrowserRouter(
       <div>
         <Nav/>
         <Workers/>
+        <Footer/>
         </div>
     },
 
@@ -45,6 +49,7 @@ const router = createBrowserRouter(
       <div>
         <Nav/>
         <About/>
+        <Footer/>
         </div>
     },
 
@@ -54,6 +59,7 @@ const router = createBrowserRouter(
       <div>
         <Nav/>
         <MyProfile/>
+        <Footer/>
         </div>
     },
 
@@ -63,6 +69,7 @@ const router = createBrowserRouter(
       <div>
         <Nav/>
         <MyAppointments/>
+        <Footer/>
         </div>
     },
 
@@ -72,6 +79,7 @@ const router = createBrowserRouter(
       <div>
         <Nav/>
         <Login/>
+        <Footer/>
         </div>
     },
 
@@ -81,6 +89,7 @@ const router = createBrowserRouter(
       <div>
         <Nav/>
         <Contact/>
+        <Footer/>
         </div>
     },
 
@@ -90,6 +99,7 @@ const router = createBrowserRouter(
       <div>
         <Nav/>
         <About/>
+        <Footer/>
         </div>
     },
 
@@ -99,6 +109,7 @@ const router = createBrowserRouter(
       <div>
         <Nav/>
         <Appointment/>
+        <Footer/>
         </div>
     },
   ]
