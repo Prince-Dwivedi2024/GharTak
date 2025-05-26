@@ -9,14 +9,13 @@ const Nav = () => {
 
   const [showMenu, setShowMenu] = useState(false);
   const [token, setToken] = useState(false); //if token means we are logged in
-
   return (
     <div className="flex items-center justify-between text-sm py-4 mb-5 border-b border-b-gray-400">
       <div className="font-bona font-semibold text-primary w-44 cursor-pointer text-4xl">
         <Link to="/" className="hover:text-orange-600">
           <div className="flex justify-between items-center gap-2">
             <SiHomeassistantcommunitystore />
-             <div className="text-orange-800">
+             <div className="text-orange-900">
               GharTak
              </div>
           </div>

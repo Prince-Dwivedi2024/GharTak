@@ -13,7 +13,7 @@ const Footer = () => {
             <Link to="/" className="hover:text-orange-600">
               <div className="flex justify-between items-center gap-2">
                 <SiHomeassistantcommunitystore />
-                <div className="text-orange-800">GharTak</div>
+                <div className="text-orange-900">GharTak</div>
               </div>
             </Link>
           </div>
