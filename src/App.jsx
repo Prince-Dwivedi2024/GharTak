@@ -104,7 +104,7 @@ const router = createBrowserRouter(
     },
 
     {
-      path : '/appointment/:docId',
+      path : '/appointment/:workId',
       element : 
       <div>
         <Nav/>

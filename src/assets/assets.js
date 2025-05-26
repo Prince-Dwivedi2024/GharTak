@@ -95,7 +95,7 @@ export const workers = [
         speciality: 'Electrician',
         degree: 'Lineman',
         experience: '4 Years',
-        about: 'James has a strong commitment to ensuring reliable electrical service, with a focus on preventive maintenance, early fault detection, and efficient repair strategies.',
+        about: 'James has a strong commitment to ensuring reliable electrical service, with a focus on preventive maintenance, early fault detection, and efficient repair strategies. This proactive approach minimizes downtime and extends the lifespan of critical systems. Larson’s dedication to excellence ensures safety, performance, and customer satisfaction at every level.',
         fees: 50,
         address: {
             line1: '17th Cross, Richmond',
@@ -109,7 +109,7 @@ export const workers = [
         speciality: 'Electrician',
         degree: 'Wireman',
         experience: '3 Years',
-        about: 'Larson has a strong commitment to ensuring reliable electrical service, with a focus on preventive maintenance, early fault detection, and efficient repair strategies.',
+        about: 'Larson has a strong commitment to ensuring reliable electrical service, with a focus on preventive maintenance, early fault detection, and efficient repair strategies.This proactive approach minimizes downtime and extends the lifespan of critical systems. Larson’s dedication to excellence ensures safety, performance, and customer satisfaction at every level.',
         fees: 60,
         address: {
             line1: '27th Cross, Richmond',
@@ -123,7 +123,7 @@ export const workers = [
         speciality: 'Electrician',
         degree: 'Solar Technician',
         experience: '1 Years',
-        about: 'Patel has a strong commitment to ensuring reliable electrical service, with a focus on preventive maintenance, early fault detection, and efficient repair strategies.',
+        about: 'Patel has a strong commitment to ensuring reliable electrical service, with a focus on preventive maintenance, early fault detection, and efficient repair strategies. This proactive approach minimizes downtime and extends the lifespan of critical systems. Larson’s dedication to excellence ensures safety, performance, and customer satisfaction at every level.',
         fees: 30,
         address: {
             line1: '37th Cross, Richmond',
@@ -137,7 +137,7 @@ export const workers = [
         speciality: 'Carpenter',
         degree: 'Furniture',
         experience: '2 Years',
-        about: 'Lee',
+        about: 'Lee This proactive approach minimizes downtime and extends the lifespan of critical systems. Larson’s dedication to excellence ensures safety, performance, and customer satisfaction at every level. This proactive approach minimizes downtime and extends the lifespan of critical systems. Larson’s dedication to excellence ensures safety, performance, and customer satisfaction at every level.',
         fees: 40,
         address: {
             line1: '47th Cross, Richmond',
@@ -151,7 +151,7 @@ export const workers = [
         speciality: 'Carpenter',
         degree: 'Window Fitter',
         experience: '4 Years',
-        about: 'Garcia has a strong commitment to ensuring reliable electrical service, with a focus on preventive maintenance, early fault detection, and efficient repair strategies.',
+        about: 'Garcia has a strong commitment to ensuring reliable electrical service, with a focus on preventive maintenance, early fault detection, and efficient repair strategies. This proactive approach minimizes downtime and extends the lifespan of critical systems. Larson’s dedication to excellence ensures safety, performance, and customer satisfaction at every level.',
         fees: 50,
         address: {
             line1: '57th Cross, Richmond',
@@ -165,7 +165,7 @@ export const workers = [
         speciality: 'Carpenter',
         degree: 'Interior',
         experience: '4 Years',
-        about: 'Andre has a strong commitment to ensuring reliable electrical service, with a focus on preventive maintenance, early fault detection, and efficient repair strategies.',
+        about: 'Andre has a strong commitment to ensuring reliable electrical service, with a focus on preventive maintenance, early fault detection, and efficient repair strategies. This proactive approach minimizes downtime and extends the lifespan of critical systems. Larson’s dedication to excellence ensures safety, performance, and customer satisfaction at every level.',
         fees: 50,
         address: {
             line1: '57th Cross, Richmond',

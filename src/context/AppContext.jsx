@@ -3,9 +3,11 @@ import { workers } from "../assets/assets";
 
 export const AppContext = createContext()
 
+const currencySymbol = "$"
+
 const AppContextProvider = (props) =>{
       const value = {
-        workers
+        workers, currencySymbol
       }
 
       return(
