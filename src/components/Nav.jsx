@@ -8,7 +8,7 @@ const Nav = () => {
   const navigate = useNavigate();
 
   const [showMenu, setShowMenu] = useState(false);
-  const [token, setToken] = useState(false); //if token means we are logged in
+  const [token, setToken] = useState(true); //if token means we are logged in
   return (
     <div className="flex items-center justify-between text-sm py-4 mb-5 border-b border-b-gray-400">
       <div className="font-bona font-semibold text-primary w-44 cursor-pointer text-4xl">

@@ -52,7 +52,8 @@ const Footer = () => {
       {/* --------copyright text------- */}
       <div>
         <hr />
-        <p className="py-5 text-sm text-center">Copyright 2025 @ GharTak.services - All Right Reserved.</p>
+        <p className="py-5 text-sm text-center font-medium">Copyright 2025 @ GharTak.services - All Right Reserved.</p>
+        <p className="py-5 text-sm text-center from-neutral-900">Devloped with love by <a href="https://github.com/Prince-Dwivedi2024" className="text-teal-950 dark:text-teal-600">Prince Dwivedi</a></p>
       </div>
     </div>
   );
