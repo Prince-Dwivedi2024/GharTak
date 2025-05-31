@@ -6,7 +6,8 @@ const Workers = () => {
     
    const {workers} = useContext(AppContext)
    const navigate = useNavigate()
-
+   
+   const [showFilter, setShowFilter] = useState(false)
    const {speciality} = useParams()   //to fetch speciality id from the home page
    const [filterWork, setFilterWork] = useState([])
    
@@ -31,7 +32,8 @@ const Workers = () => {
         Find experts by profession
       </p>
       <div className='flex flex-col sm:flex-row items-start gap-5 mt-5'>
-        <div className='flex flex-col gap-4 text-sm text-gray-600'>
+        <button className={`py-1 px-3 border rounded text-sm transition-all sm:hidden ${showFilter ? 'bg-primary text-white' : ''}`} onClick={() => setShowFilter(prev => !prev)}>Filters</button>
+        <div className={`flex-col gap-4 text-sm text-gray-600 ${showFilter ? 'flex' : 'hidden sm:flex'}`}>
           <p onClick={() => speciality === 'Carpenter' ? navigate('/workers') : navigate('/workers/Carpenter')} className= {`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer ${speciality === "Carpenter" ? "bg-amber-100 text-black" : ""}`}>Carpenter</p>
           <p onClick={() => speciality === 'Cleaner' ? navigate('/workers') : navigate('/workers/Cleaner')} className= {`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer ${speciality === "Cleaner" ? "bg-amber-100 text-black" : ""}`}>Cleaner</p>
           <p onClick={() => speciality === 'Electrician' ? navigate('/workers') : navigate('/workers/Electrician')} className= {`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 rounded transition-all cursor-pointer ${speciality === "Electrician" ? "bg-amber-100 text-black" : ""}`}>Electrician</p>
